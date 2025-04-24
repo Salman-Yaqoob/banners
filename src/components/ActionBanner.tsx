@@ -33,10 +33,7 @@ function ActionBanner() {
           </div>
         </>
       ) : (
-        <FaRegWindowMaximize
-          onClick={handleWindow}
-          className="absolute top-3 right-20 text-lg text-white"
-        />
+        <button>Notification</button>
       )}
     </div>
   );
